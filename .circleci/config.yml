@@ -24,7 +24,7 @@ jobs:
   build:
     working_directory: ~/SimpleeApplication
     docker:
-      - image: circleci/node:latest
+      - image: circleci/node:10.16.3
     steps:
       - checkout
       - run: 
